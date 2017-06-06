@@ -1,14 +1,18 @@
 h1 {
-  color:blue;
+  color: blue;
   font-size: 200%;
 }
 h2 {
-  color:green;
-  font-style: 200%;
+  color: purple;
+  font-size: 200%;
+}
+h3 {
+  color: blue;
+  font-size: 200%;
 }
 p {
-  font-size: 100%;
+  font-size: 150%;
 }
 body {
-  background-color: aqua;
+  background-color: green;
 }
