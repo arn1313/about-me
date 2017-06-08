@@ -1,4 +1,5 @@
 'use strict';
+var tries = 0;
 var rightAnswer = 0;
 // question 1
 function question1() {
