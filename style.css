@@ -37,14 +37,17 @@ ul {
   font-size: 125%;
 }
 ol {
-  display: grid;
   font-size: 125%;
-  list-style-position: inside;
-  list-style: circle;
+    -webkit-column-count: 2;
+    -moz-column-count:2;
+    column-count: 2;
+    -webkit-column-gap: 40px;
+    column-gap: 40px;
+    -moz-column-gap: 40px;
+  }
 }
 li {
   font-size: 125%;
-  display: inline-block;
 }
 img {
   width: 250px;
