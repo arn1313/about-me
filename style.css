@@ -24,19 +24,12 @@ p.one {
   font-size: 125%;
   float: both;
 }
-p.two {
-  font: 150%;
-  float: both;
-}
-p.three {
-  font-size: 150%;
-  float: both;
-}
 body {
   background-color: #b3ffb3;
+  font-family: fantasy, Arial, sans-serif;
 }
 a {
-  font-size: 150%;
+  font-size: 100%;
   color: inherit;
 }
 ul {
@@ -46,6 +39,8 @@ ul {
 ol {
   display: grid;
   font-size: 125%;
+  list-style-position: inside;
+  list-style: circle;
 }
 li {
   font-size: 125%;
